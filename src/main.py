@@ -19,6 +19,8 @@ def main():
 
     reader = TextDataReader()
     students = reader.read(path)
+
+    # вывод студентов
     print("Students: ", students)
 
     rating = CalcRating(students).calc()
