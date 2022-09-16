@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <student id="0">
+      <name>Иванов Иван Иванович</name>
+      <math>80</math>
+      <prin>90</prin>
+      <litra>76</litra>
+   </student>
+   <student id="1">
+      <name>Петров Петр Петрович</name>
+      <math>100</math>
+      <soc>90</soc>
+      <chemistry>61</chemistry>
+   </student>
+</root>
