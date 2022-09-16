@@ -5,6 +5,8 @@ import sys
 from CalcRating import CalcRating
 from CustomXmlDataReader import CustomXmlDataReader
 
+import numpy as np
+
 
 def get_path_from_arguments(args) -> str:
     parser = argparse.ArgumentParser(description="Path to datafile")
@@ -24,6 +26,13 @@ def main():
 
     rating = CalcRating(students).calc()
     print("Rating: ", rating)
+
+
+    arr = list()
+    for x in rating:
+        arr.append(rating[x])
+
+    print(np.quantile(arr, q=np.arange(0.25, 1, 0.25)))
 
 
 if __name__ == "__main__":
