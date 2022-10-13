@@ -12,4 +12,89 @@
       <soc>90</soc>
       <chemistry>61</chemistry>
    </student>
+   <student id="2">
+      <name>Петров Иван Петрович</name>
+      <math>95</math>
+      <soc>67</soc>
+      <chemistry>85</chemistry>
+   </student>
+   <student id="3">
+      <name>Иванов Петр Петрович</name>
+      <math>100</math>
+      <soc>100</soc>
+      <chemistry>100</chemistry>
+   </student>
+   <student id="4">
+      <name>Петров Петр Иванович</name>
+      <math>90</math>
+      <soc>90</soc>
+      <chemistry>90</chemistry>
+   </student>
+   <student id="5">
+      <name>Иванов Иван Петрович</name>
+      <math>61</math>
+      <soc>61</soc>
+      <chemistry>61</chemistry>
+   </student>
+   <student id="6">
+      <name>Савельев Петр Петрович</name>
+      <math>64</math>
+      <soc>75</soc>
+      <chemistry>89</chemistry>
+   </student>
+
+   <student id="7">
+      <name>Алексеев Петр Петрович</name>
+      <math>62</math>
+      <soc>68</soc>
+      <chemistry>72</chemistry>
+   </student>
+   <student id="8">
+      <name>Петров Игорь Петрович</name>
+      <math>95</math>
+      <soc>94</soc>
+      <chemistry>93</chemistry>
+   </student>
+   <student id="9">
+      <name>Соколов Петр Петрович</name>
+      <math>91</math>
+      <soc>91</soc>
+      <chemistry>90</chemistry>
+   </student>
+   <student id="10">
+      <name>Орлов Александр Петрович</name>
+      <math>89</math>
+      <soc>88</soc>
+      <chemistry>87</chemistry>
+   </student>
+   <student id="11">
+      <name>Воробьев Петр Иванович</name>
+      <math>86</math>
+      <soc>85</soc>
+      <chemistry>84</chemistry>
+   </student>
+   <student id="12">
+      <name>Котов Петр Петрович</name>
+      <math>83</math>
+      <soc>82</soc>
+      <chemistry>81</chemistry>
+   </student>
+   <student id="13">
+      <name>Волков Петр Петрович</name>
+      <math>80</math>
+      <soc>79</soc>
+      <chemistry>78</chemistry>
+   </student>
+   <student id="14">
+      <name>Александров Петр Петрович</name>
+      <math>77</math>
+      <soc>76</soc>
+      <chemistry>75</chemistry>
+   </student>
+   <student id="15">
+      <name>Ильин Петр Петрович</name>
+      <math>74</math>
+      <soc>73</soc>
+      <chemistry>72</chemistry>
+   </student>
 </root>
