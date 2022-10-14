@@ -24,7 +24,7 @@ def main():
 
     rating = CalcRating(students).calc()
     print("Rating: ", rating)
-    sorted_rating = dict(sorted(rating.items(), key=lambda item: item[1]))
+    sorted_rating = dict(sorted(rating.items(), key=lambda item: item[1], reverse=True))
     # print("Sorted:", sorted_rating)
     quan = len(sorted_rating) // 4
     print("Первый квартиль:", list(sorted_rating.items())[:quan])
