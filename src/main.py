@@ -4,6 +4,7 @@ import sys
 
 from CalcRating import CalcRating
 from CustomXmlDataReader import CustomXmlDataReader
+from FirstQuartileCalc import FirstQuartileCalc
 
 
 def get_path_from_arguments(args) -> str:
@@ -24,10 +25,8 @@ def main():
 
     rating = CalcRating(students).calc()
     print("Rating: ", rating)
-    sorted_rating = dict(sorted(rating.items(), key=lambda item: item[1], reverse=True))
-    # print("Sorted:", sorted_rating)
-    quan = len(sorted_rating) // 4
-    print("Первый квартиль:", list(sorted_rating.items())[:quan])
+    result = FirstQuartileCalc(students).quartile_calc()
+    print("Первый квартиль:", result)
 
 
 if __name__ == "__main__":
