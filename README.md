@@ -22,7 +22,7 @@
 - pytest
 
 ## UML-диаграмма классов
-![UML](https://github.com/xdhao/PTLab1-2022/blob/main/CD.png)
+![UML](https://github.com/xdhao/PTLab1-2022/blob/main/pt1_uml.drawio.png)
 
 ## Выводы
 Выполнив лабораторную работу я познакомился с языком программирования python и средой разработки pyCharm, научился использовать `GitHub Actions` для автоматического тестирования кода с использованием `pytest` и `pycodestyle`.
