@@ -37,7 +37,7 @@ class TestQuartileRating:
     @pytest.fixture()
     def input_data_two(self) -> tuple[DataType, list]:
         data: DataType = {"Иванов Иван Иванович":
-                              [("math", 80),("prin", 90), ("litra", 76)],
+                              [("math", 80), ("prin", 90), ("litra", 76)],
                           "Петров Петр Петрович":
                               [("math", 100), ("soc", 90), ("chemistry", 61)],
                           "Петров Иван Петрович":
